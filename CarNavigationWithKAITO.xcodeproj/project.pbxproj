@@ -14,6 +14,7 @@
 		8F6E8FE32AE74FF400803D74 /* CarNavigationWithKAITOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E8FE22AE74FF400803D74 /* CarNavigationWithKAITOTests.swift */; };
 		8F6E8FED2AE74FF400803D74 /* CarNavigationWithKAITOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E8FEC2AE74FF400803D74 /* CarNavigationWithKAITOUITests.swift */; };
 		8F6E8FEF2AE74FF400803D74 /* CarNavigationWithKAITOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E8FEE2AE74FF400803D74 /* CarNavigationWithKAITOUITestsLaunchTests.swift */; };
+		8F6E8FFE2AE7550700803D74 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E8FFD2AE7550700803D74 /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8F6E8FE82AE74FF400803D74 /* CarNavigationWithKAITOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarNavigationWithKAITOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6E8FEC2AE74FF400803D74 /* CarNavigationWithKAITOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNavigationWithKAITOUITests.swift; sourceTree = "<group>"; };
 		8F6E8FEE2AE74FF400803D74 /* CarNavigationWithKAITOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNavigationWithKAITOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F6E8FFD2AE7550700803D74 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				8F6E8FD32AE74FF300803D74 /* ContentView.swift */,
 				8F6E8FD52AE74FF300803D74 /* Assets.xcassets */,
 				8F6E8FD72AE74FF300803D74 /* Preview Content */,
+				8F6E8FFD2AE7550700803D74 /* MapModel.swift */,
 			);
 			path = CarNavigationWithKAITO;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F6E8FD42AE74FF300803D74 /* ContentView.swift in Sources */,
+				8F6E8FFE2AE7550700803D74 /* MapModel.swift in Sources */,
 				8F6E8FD22AE74FF300803D74 /* CarNavigationWithKAITOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +426,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarNavigationWithKAITO/Preview Content\"";
+				DEVELOPMENT_TEAM = VRC3Z3Y9FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +457,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarNavigationWithKAITO/Preview Content\"";
+				DEVELOPMENT_TEAM = VRC3Z3Y9FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
